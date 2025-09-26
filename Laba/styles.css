@@ -1,0 +1,29 @@
+background{
+    background-color: white;
+}
+/* Текст к параграфу даты рождения */
+.dateText{
+    color: green;
+}
+/* Текст к параграфу автобиографии */
+.AutoBiography{
+    color: green;
+}
+/* Ссылка на другие страницы от страницы ФИО */
+.linkToNextPage{
+    color: blue;
+}
+/* Описание хобби */
+.descriptionHobby{
+    color: green;
+}
+/* Ссылки на ресурсы */
+.linkToResources{
+    color: blue;
+}
+.IdeaAndTargetProject{
+    color: green;
+}
+.otherText{
+    color: black;
+}
