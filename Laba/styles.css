@@ -1,9 +1,13 @@
 background{
     background-color: white;
 }
+.nameText{
+    transform: skew(0deg, 15deg)
+}
 /* Текст к параграфу даты рождения */
 .dateText{
     color: green;
+    
 }
 /* Текст к параграфу автобиографии */
 .AutoBiography{
