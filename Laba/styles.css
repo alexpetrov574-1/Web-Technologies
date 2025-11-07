@@ -1,13 +1,39 @@
 background{
     background-color: white;
 }
-.nameText{
-    transform: skew(0deg, 15deg)
+/* Геометрическая фигура, производим над ней преобразования */
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: #3e92cc;
+}
+div::before{
+    content: '';
+    position: absolute;
+    top: -25px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid #3e92cc;
+}
+div::after{
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #3e92cc;
+}
+.skewed{   
+    transition: transform 1s ease;
+}
+/* При наведении курсором на шестиугольник, наклон */
+.skewed:hover{
+    transform: skew(0deg, 30deg);
 }
 /* Текст к параграфу даты рождения */
 .dateText{
-    color: green;
-    
+    color: green;   
 }
 /* Текст к параграфу автобиографии */
 .AutoBiography{
